@@ -12,7 +12,6 @@ public class ReportCard {
     private ArrayList<String[]> mGrade = new ArrayList<>();
     private int mNumberOfClass;
 
-
     /**
      * Create a  new ReportCard object.
      *
@@ -48,7 +47,6 @@ public class ReportCard {
      * @return the grade for that class
      */
     public String getGrade(String myClass) {
-
         for (int i = 0; i < mNumberOfClass; i++) {
             if (myClass.equals(mGrade.get(i)[0]))
                 return mGrade.get(i)[1];

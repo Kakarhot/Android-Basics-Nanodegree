@@ -25,7 +25,6 @@ public class ReportCard {
         }
         mName = name;
         mNumberOfClass = classes.length;
-
     }
 
     /**
